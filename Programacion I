@@ -1,0 +1,6 @@
+letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m']
+less = []
+
+for num in range(letters.index('b'), len(letters), 3):
+    less.append(letters[num])
+print(less)
